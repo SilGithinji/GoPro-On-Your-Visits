@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <title>GoPro on Your Visits</title>
+</head>
+<body>
+
+  <div class="container">
+    <section class="search-section">
+      <!-- Your dynamic search form goes here -->
+      <form id="searchForm">
+        <label for="location">Location:</label>
+        <input type="text" id="location" placeholder="Enter your location">
+
+        <label for="service">Service:</label>
+        <input type="text" id="service" placeholder="Enter the service you're looking for">
+
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <section class="results-section">
+      <!-- Your dynamic results section goes here -->
+      <div id="results"></div>
+    </section>
+
+    <!-- Container for Google Maps -->
+    <section id="map-container">
+      <div id="map"></div>
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
