@@ -1,4 +1,5 @@
 **GoPro on Your Visits**: 
+
 _Empowering Local Exploration Through Seamless Search_
 
 GoPro on Your Visits is a revolutionary web platform designed to transform local exploration. Users can effortlessly discover nearby services—ranging from hospitals to shopping malls—by inputting their location. The website curates results in real-time, providing a visually engaging and user-friendly experience.
