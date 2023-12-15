@@ -13,9 +13,9 @@ $(document).ready(function() {
 
   // Function to handle the dynamic search
   function handleSearch(location, service) {
-    // Replace this with your AJAX call to fetch and display results
+    // Update the AJAX request's URL to be a relative path
     $.ajax({
-      url: '/path/to/your/wordpress/ajax-handler.php',
+      url: 'ajax-handler.php', // Assuming ajax-handler.php is in the same directory
       type: 'POST',
       data: {
         location: location,
