@@ -1,19 +1,22 @@
 /*
 Theme Name: GoPro on Your Visits
-Author: Your Name
+Author:   Isaac Githinji
 Description: A dynamic and interactive WordPress theme for local exploration.
 Version: 1.0
 */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'Aptos', sans-serif;
+  color: turquoise;
+  font-size: 20px;
   margin: 0;
   padding: 0;
+  background-image: url(/images/102.png);
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px;
 }
 
 .search-section,
@@ -33,6 +36,21 @@ label,
 input,
 button {
   margin-bottom: 10px;
+}
+label, input, button {
+    margin-bottom: 12px;
+    font-size: 18px;
+    height: 24px;
+    color: orangered;
+    padding: 0px;
+}
+button {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    height: 44px;
+    color: orangered;
+    padding: 10px;
 }
 
 .result {
