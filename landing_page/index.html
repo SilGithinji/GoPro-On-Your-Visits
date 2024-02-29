@@ -1,1 +1,126 @@
+{% extends 'forms/base.html' %}
 
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(../static/assets/img/slide/slide-1.jpg)">
+          <div class="container">
+            <h2>Welcome to <span>GoProApp</span></h2>
+            <p>Welcome to Go Pro App.</p>
+=======
+            <h2>Welcome to <span>All Nairobi hospitals center.</span></h2>
+            <p>The Earth does not belong to us: we belong to the Earth.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(../static/assets/img/slide/slide-2.jpg)">
+          <div class="container">
+            <h2>Services Availability</h2>
+            <p>At GoProApp we make healthcare very navigable.</p>
+=======
+            <h2>Sustainability</h2>
+            <p>"Healthcare is the most precious thing." - Ralph Waldo Emerson</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(../static/assets/img/slide/slide-3.jpg)">
+          <div class="container">
+            <h2>Time Concious and Client Tailored</h2>
+            <p>Lets navigate the healthcare globe.</p>
+=======
+            <h2>Ecology</h2>
+            <p>We wont have a society if we dont have healthcare.</p>
+            <a href="#about" class="btn-get-started scrollto">Read More</a>
+          </div>
+        </div>
+
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section ======= -->
+    <section id="featured-services" class="featured-services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+              <div class="icon"><i class="fas fa-heartbeat"></i></div>
+              <h4 class="title"><a href="">HealthFacility(Timely)</a></h4>
+              <p class="description">We ensure a timely healthcare services as our service providers are one click away and very time consious.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+              <div class="icon"><i class="fas fa-pills"></i></div>
+              <h4 class="title"><a href="">All in one healthcare</a></h4>
+              <p class="description">We bring all hospitals in one basket.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+              <div class="icon"><i class="fas fa-thermometer"></i></div>
+              <h4 class="title"><a href="">Inclusion</a></h4>
+              <p class="description">No health facility is left behind.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div class="icon"><i class="fas fa-dna"></i></div>
+              <h4 class="title"><a href="">Healthy nation</a></h4>
+              <p class="description">We ensure everyone access treatment on time.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="text-center">
+          <h3>In an emergency? Need help now?</h3>
+          <p> We have a flexible service delivery routine to ensure that you are served at your own convinience 24 hours a week. Our services and application us accesible any hour if the day. You click we come since a green and habitable environment is what we pride in.</p>
+          <a class="cta-btn scrollto" href="#booking">Make an Make a Booking</a>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+
+
+  </main><!-- End #main -->
+
+{% endblock %}
