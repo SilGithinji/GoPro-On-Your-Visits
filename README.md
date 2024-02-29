@@ -2,7 +2,7 @@
 
 _Empowering Local Exploration Through Seamless Search_
 
-GoPro on Your Visits is a revolutionary web platform designed to transform local exploration. Users can effortlessly discover nearby services—ranging from hospitals to shopping malls—by inputting their location. The website curates results in real-time, providing a visually engaging and user-friendly experience.
+GoPro on Your Visits is a revolutionary web platform designed to transform local exploration. Users can effortlessly discover nearby hospitals—by inputting their location. The website curates results in real-time, providing a visually engaging and user-friendly experience.
 
 
 **Key Features**
@@ -14,66 +14,66 @@ Visual results with clear images and user ratings.
 
 **Architecture**
 
-_Initial considerations:_
+_Considered Frontend:_
 
-React.js for its component-based architecture.
+HTML, CSS and a bit of Javascript for its component-based architecture.
 
-    Pros: Reusability, efficient updates.
+Pros: Reusability, efficient updates.
 
-    Cons: Learning curve, potential heavyweight.
-
-_Eventual Consideation:_
-
-WordPress Theme with PHP for content management.
-
-    Pros: Plugin ecosystem, user-friendly.
-
-    Cons: Limited flexibility, potential performance overhead.
-
-_Integrated Service:_
-
-Google Maps API for accurate location services.
+Cons: Learning curve, potential heavyweight.
 
 
 **Technologies and Services**
 
 HTML, CSS, JavaScript for core frontend.
 
-    Pros: Universally supported, broad community.
-    
-    Cons: Limited native capabilities.
-    
-PHP for WordPress backend.
+Pros: Universally supported, broad community.
 
-    Pros: Web development focus, direct WordPress integration.
-    
-    Cons: Syntax differences, potential security concerns.
-    
-Google Maps API for mapping and geolocation.
+Cons: Limited native capabilities.
 
-    Pros: Comprehensive functionalities, well-documented.
-    
-    Cons: Potential costs at scale, external dependency.
+Python with flask framework backend.
+
+Python for backend
+
+Flask framework to generate APIs.
 
 
-**Reasoning for Technologies**
+**Third-party Services Used**
 
-Leveraging WordPress for its scalability and content management capabilities.
+Hospital data valid for all healthcare facilities registering in the Go Pro website.
 
-jQuery for efficient DOM manipulation and AJAX interactions.
+_Integration Impact_
+
+Enhanced user experience to the dynamic database. 
 
 
 **Areas for Improvement**
 
 _Technical Improvements:_
 
-    Enhance proficiency in WordPress theme development for smoother integration.
-    
-    Refine PHP coding practices for cleaner and more efficient code.
-    
+Integrating security features upon sign in and User authentication.
+
+Incorporate Google Maps for easier navigation.
+
 _Project Management Improvements:_
 
-    Implement more thorough testing procedures to identify and address potential issues early in the development process.
+Implement more thorough testing procedures to identify and address potential issues early in the development process.
+
+
+**Lessons Learned**
+
+_Technical Lessons:_
+
+Transitioning from working only on frontend framework to including backend framework required adapting to a different development paradigm.
+
+Backend development provides robust content management features, streamlining the development of dynamic and scalable websites.
+
+_Project Management Lessons:_
+
+Solo development requires effective time management and task prioritization.
+
+Continuous testing and iteration are essential for identifying and resolving issues promptly.
+
 
 
 
