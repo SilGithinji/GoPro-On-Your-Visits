@@ -1,3 +1,5 @@
+Copyright Isaac Githinji
+
 **GoPro on Your Visits**: 
 
 _Empowering Local Exploration Through Seamless Search_
