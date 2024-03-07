@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SelectField
 from wtforms.validators import DataRequired, Email, EqualTo
@@ -36,3 +37,10 @@ class LoginForm(FlaskForm):
     ]
     login_as = SelectField('Login As', choices=login_as_choices, validators=[DataRequired()])
     password = PasswordField('Password', validators=[DataRequired()])
+
+@app.route('/success')
+def success_page():
+    return 'Registration/Login Successful'
+
+if __name__ == '__main__':
+    app.run(debug=True)
